@@ -1,0 +1,8 @@
+cat /etc/astra_version
+apt-get upgrade           #установка обновления
+sudo apt-get install qtcreator 
+sudo apt install qtbase5-examples
+dpkg-query -L <package_name>        #вывод файлов в пакете 
+cd usr/lib/x86_64-linux-gnu/qt5/examples/widgets/itemviews/dirview        #открытие проекта 
+adduser newuser       #добавление нового пользователя
+usermod -d /usr/lib/x86_64-linux-gnu/qt5/example/widgets/itemviews/dirview    #присвоение новому пользователю стартовой директории, дерикторией текущего пользователя
